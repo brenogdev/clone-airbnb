@@ -3,7 +3,7 @@
 import React from 'react'
 import { BiSearch } from 'react-icons/bi'
 
-export const Search = () => {
+export default function Search() {
     return (
         <div
             className='
@@ -58,7 +58,7 @@ export const Search = () => {
                 >
                     <div className="hidden sm:block">add guest</div>
                     <div className="p-2 bg-rose-500 rounded-full text-white">
-                        <BiSearch size={18}/>
+                        <BiSearch size={18} />
                     </div>
                 </div>
             </div>
